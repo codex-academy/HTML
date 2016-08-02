@@ -15,12 +15,15 @@ Web sites as blocks.
 * div, span
 * blockquote, code, del, ins, pre
 * table, thead, tbody, tfoot, td, th
+* comments
+* special characters
 
 ## Basic forms
 
 * form
 * input text, name attribute, id attribute
 * label, for attribute
+* hidden, file
 * input submit
 * textarea
 * radio, checkbox
