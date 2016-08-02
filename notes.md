@@ -34,6 +34,7 @@ Web sites as blocks.
 * nav
 * figure, figcaption
 * mark
+* picture and srcset
 
 ## New HTML form features
 
