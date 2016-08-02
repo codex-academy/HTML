@@ -1,11 +1,15 @@
 # HTML
 
+Use [h5bp](https://html5boilerplate.com/) (the HTML5 Boilerplate) as a base.
+
 ## Basic HTML
 
-* html
-* head, meta, title, link, style
+Web sites as blocks.
+
+* html, lang attribute
+* head, meta, charset utf-8, title, link, style
 * body, script, noscript
-* p, a, h, img
+* p, h, a, img
 * strong, em
 * ul, ol, li
 * div, span
@@ -15,8 +19,8 @@
 ## Basic forms
 
 * form
-* input text
-* label
+* input text, name attribute, id attribute
+* label, for attribute
 * input submit
 * textarea
 * radio, checkbox
