@@ -2,9 +2,10 @@
 
 ## Basic HTML
 
-* html, body, head, style, link, script, noscript, meta, title
-* p, h, img
-* a
+* html
+* head, meta, title, link, style
+* body, script, noscript
+* p, a, h, img
 * strong, em
 * ul, ol, li
 * div, span
