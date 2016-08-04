@@ -6,54 +6,48 @@ Use [h5bp](https://html5boilerplate.com/) (the HTML5 Boilerplate) as a base.
 
 Web sites as blocks.
 
-* html, lang attribute
-* head, meta, charset utf-8, title, link, style
-* body, script, noscript
-* p, h, a, img
-* strong, em
-* ul, ol, li
-* div, span
-* blockquote, code, del, ins, pre
-* table, thead, tbody, tfoot, td, th
-* comments
-* special characters
+* `meta` (charset, viewport), title, link (position in doc), script (position in doc)
+* `div`, `span` (use only if no other semantic element is better. Do you really need to add another element?)
 
 ## Basic forms
 
-* form
-* input text, name attribute, id attribute
-* label, for attribute
-* hidden, file
-* input submit
-* textarea
-* radio, checkbox
-* fieldset, legend
-* select, option
+HTML is static: something has to catch the `form`.
+
+* `form` (method, action)
+* `input` text, `name` attribute, `id` attribute
+* `input` submit
+* password
+* `label`, `for` attribute (UX, accessibility)
+* hidden
+* `textarea`
+* radio, select, option (pick one)
+* checkbox (pick many)
+* file
+* `fieldset`, `legend` (semantics, UX, accessibility)
 
 ## New HTML elements
 
-* section, article, aside, main
-* header, footer
-* nav
-* figure, figcaption
-* mark
-* picture and srcset
+* `section`, `article`, `aside`, `main`, `header`, `footer`, `nav` (accessibility, semantics)
+* `picture` and `srcset` (responsive) (look at [HTML of FEFG](http://fefg.projectcodex.co/html.html))
 
 ## New HTML form features
 
-* number
-* date, time
+### Input types
+
+Ordered by improvmments -> new stuff.
+
 * email
-* tel
 * url
-* range
+* number
+* tel
 * search
+* date
+* range
 * color
-* placeholder attribute
-* pattern attribute
-* required attribute
-* autofocus attribute
 
-## WAI-ARIA
+### Helper attributes
 
-* landmarks
+* `placeholder` (UX)
+* `pattern` (validation)
+* `required` (validation)
+* `autofocus` (potentially evil)
