@@ -1,8 +1,3 @@
----
-layout: default
-title: Initial notes
----
-
 # The big HTML and inputs bit
 
 1. We will crowbar this mostly into bits of Nelisa (or pull things into Nelisa to make it fit) (we can try and do this in just the Nelly repo, or split it across the break out repos)
