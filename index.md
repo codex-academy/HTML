@@ -25,14 +25,14 @@ Used [h5bp](https://html5boilerplate.com/) (the HTML5 Boilerplate) as a base. Ou
 </html>
 ```
 
-## Basic HTML
+## HTML
 
 Web sites as blocks.
 
 * `meta` (charset, viewport), title, link (position in doc), script (position in doc)
 * `div`, `span` (use only if no other semantic element is better. Do you really need to add another element?)
 
-## Basic forms
+## HTML forms
 
 HTML is static: something has to catch the `form`.
 
