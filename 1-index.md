@@ -5,7 +5,7 @@ title: HTML and forms
 
 # HTML
 
-Used [h5bp](https://html5boilerplate.com/) (the HTML5 Boilerplate) as a base. Our base: [blank.html](blank.html).
+Here's a very light template that you can use as a base for a new HTML page: [blank.html](blank.html). It looks like this:
 
 ```html
 <!doctype html>
@@ -15,17 +15,26 @@ Used [h5bp](https://html5boilerplate.com/) (the HTML5 Boilerplate) as a base. Ou
         <title>Hello, world!</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- <link rel="stylesheet" href="css/main.css"> -->
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <p>Hello, world!</p>
 
-        <!-- <script src="js/main.js"></script> -->
+        <script src="js/main.js"></script>
     </body>
 </html>
 ```
 
-Web sites as blocks.
+It's a trimmed version of the [HTML5 Boilerplate](https://html5boilerplate.com/), which is widely used and respected by the Front-end development community. Their documentation has lots of great advice.
 
-* `meta` (charset, viewport), title, link (position in doc), script (position in doc)
-* `div`, `span` (use only if no other semantic element is better. Do you really need to add another element?)
+## All in your head
+
+* `<meta charset="utf-8">` is the character encoding for Unicode. This tells the browser how to read the content of the page.
+* `<title>Hello, world!</title>` sets the title of the page in the browser tab and in search engine results.
+* `<meta name="viewport" content="width=device-width, initial-scale=1">` is for improving the display on mobile devices. It sets the width of the page to the width of the device. Try removing it on a site to see the difference it makes.
+* `<link rel="stylesheet" href="css/main.css">` points to an external stylesheet. When the browser hits this line, it stops rendering the page until it's downloaded the `main.css` file. It goes at the top so that we have the styles (the presentation) before we show the HTML (the structured content) to the user.
+* `<script src="js/main.js"></script>` points to an external JavaScript file.  When the browser hits this line, it stops rendering the page until it's downloaded the `main.js` file. Since the rest of the page (and the CSS) has already loaded, the can interact with the page while the JavaScript is loading.
+
+## Semantics
+
+When writing HTML, think about what elements to use. `div` and `span` are two generic containers. You should only use them if no other semantic element more appropriate. Is the content a list? Use a `ul` or `ol`. If you need to style something, can you add a class to an existing element rather than adding a new `div` or `span` with the class?
