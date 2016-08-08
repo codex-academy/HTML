@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HTML and forms
+title: HTML
 ---
 
 # HTML
