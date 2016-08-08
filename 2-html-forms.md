@@ -31,9 +31,9 @@ The `name` attribute is the how the piece of data will be identified by the serv
 For improved accessibility (identifying what the control is for) and UX (click anywhere on the label to bring focus to the control) you can use `label`s. You can:
 
 * put the `input` inside the `label` or
-* put the `label` near the `input` and use a `for` attrbiute on the label that matches the `id` of the `input`.
+* put the `label` near the `input` and use a `for` attribute on the label. The value of the `for` attribute must matches the `id` of an `input`.
 
-Here's [a slightly larger example](form-2.html) showing the two ways to use labels, and introducing a new control, `textarea` for larger text.
+Here's [a slightly larger example](form-2.html) showing the two ways to use labels, and introducing a new control: `textarea`, for larger pieces of text.
 
 ```html
 <form action="/" method="post">
@@ -55,10 +55,75 @@ Other `input`s to look at include `password` and `hidden` types.
 
 ### Pick one
 
-When you want your user to pick from some options, rather than type something in, you have a few controls to choose from. If the user should pick more than one thing, use a `checkbox`. If they should pick only one thing, use a `radio` or a `select`
+When you want your user to pick from some options, rather than type something in, you have a few controls to choose from. If the user should pick more than one thing, use a `checkbox`. If they should pick only one thing, use a `radio` or a `select`.
 
-To improve the logical grouping of your form, and improve UX and accessiblity, you can use the `fieldset` element to group controls and the `legend` element to add a description for each group.
+To improve the logical grouping of your form, and improve UX and accessiblity, you can use:
 
-Here's [an example](form-3.html) showing these new controls. Note the difference between `name` and `id` on the `checkbox` and `radio` `input`s.
+* the `fieldset` element to group controls;
+* the `legend` element to add a description for each group.
+
+Here's [an example](form-3.html) showing these new controls.
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, form!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//static.projectcodex.co/css/main.css">
+    </head>
+    <body>
+      <form action="/" method="post">
+
+        <fieldset>
+          <legend>What is your favourite animal?</legend>
+
+          <label>Cats
+            <input type="checkbox" name="favourite-animal-cats">
+          </label>
+
+          <label>Dogs
+            <input type="checkbox" name="favourite-animal-dogs">
+          </label>
+
+          <label>Fish
+            <input type="checkbox" name="favourite-animal-fish">
+          </label>
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Is this a question?</legend>
+          <label>Yes
+            <input type="radio" name="question" value="Yes">
+          </label>
+          <label>No
+            <input type="radio" name="question" value="No">
+          </label>
+        </fieldset>
+        <br />
+
+        <label>Is this also a question?<br />
+          <select name="also-question">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </label>
+        <br />
+        <br />
+
+        <button type="submit">Send the data</button>
+      </form>
+    </body>
+</html>
+```
+
+Note the use of `name` and `value` across the different `input`s. The `name` identifies what piece of data that will be sent to the server. The `value` is the content of the data that will be sent to the server.
+
+* Each `checkbox` has a separate `name`. You can optionally add a `value`.
+* On a `radio` the `name` has to be the same across the options to make sure only one can be picked.
+* The `option`s of a selection use their content as the value, unless explicitly set a `value`.
 
 It's a good idea to add `:focus` styles so that you can easily see which form control is active.
