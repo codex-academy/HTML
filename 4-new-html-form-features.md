@@ -58,7 +58,30 @@ JS date pickers can be replaced by `<input type="date" />`. JS sliders can be re
 
 JS is still needed to for some client-side updates (such as live-updating the selected value of a `range`), but the form control itself comes from the browsers. This is better because these types of inputs can now render more consistently across sites in terms and look & feel and operation. It also reduces the amount of code you need to write since the browser is handing the form control for you.
 
-TODO: add example.
+Here's an example these new controls: [form-going-native.html](form-going-native.html).
+
+```html
+<form action="4-new-html-form-features.html" method="post">
+
+  <label>Pick a date in January 2017<br />
+    <input type="date" min="2017-01-01" max="2017-01-31">
+  </label>
+
+  <label>Pick a thingy<br />
+      <input type="range" min="0" max="10" step="2" >
+  </label>
+
+  <label>Pick a colour<br />
+      <input type="color" value="#8bc53f">
+  </label>
+
+  <button type="submit">Send the data</button>
+</form>
+```
+
+* What do the `min` and `max` attributes on the `date` do? Can you pick a date in 2016?
+* What's going on with the `range`? Why can't we see what the selected value is?
+* What does the `value` on `color` do? What happens if we change it to `#789abc`?
 
 ## Helper attributes
 
