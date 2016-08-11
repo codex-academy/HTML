@@ -18,23 +18,37 @@ A new set of `input` types were added to HTML to offer improved semantics, acces
 Here's an example with the new input types: [form-easier.html](form-easier.html)
 
 ```html
-<form action="/" method="post">
-    <fieldset>
-        <legend>Your info</legend>
+<form action="4-new-html-form-features.html" method="post">
+  <fieldset>
+      <legend>Your info</legend>
 
-        <label>Your email<br />
+      <label>Your email<br />
         <input type="email" name="your-email">
-        </label>
-        <label>Your URL<br />
+      </label>
+      <label>Your URL<br />
         <input type="url" name="your-url" value="https://">
-        </label>
+      </label>
+  </fieldset>
 
-        <button type="submit">Send the data</button>
-    </fieldset>
+  <fieldset>
+      <legend>Number and numbers</legend>
+
+      <label>Pick an even number between 0 and 10<br />
+          <input type="number" name="your-number" min="0" max="10" step="2">
+      </label>
+
+      <label>Your phone number<br />
+        <input type="tel" name="your-phone-number">
+      </label>
+  </fieldset>
+
+  <button type="submit">Send the data</button>
 </form>
 ```
 
-What happens if you don't enter a correctly formatted email address or URL? Why did we add `value="https://"` and what happens if we remove it?
+* What happens if you don't enter a correctly formatted email address or URL?
+* Can you enter "3" into the "Pick an even number" field and submit the form?
+* Why did we add `value="https://"`? What happens if we remove it?
 
 ### Going native
 
