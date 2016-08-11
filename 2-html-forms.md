@@ -114,5 +114,3 @@ Note the use of `name` and `value` across the different `input`s. The `name` ide
 * Each `checkbox` has a separate `name`. You can optionally add a `value`.
 * On a `radio` the `name` has to be the same across the options to make sure only one can be picked.
 * The `option`s of a selection use their content as the value, unless explicitly set a `value`.
-
-It's a good idea to add `:focus` styles so that you can easily see which form control is active.
