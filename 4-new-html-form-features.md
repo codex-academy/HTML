@@ -95,4 +95,27 @@ The `pattern` attribute allows for validation on the input based on the supplied
 
 Another useful, but potentially evil attribute is `autofocus`. This brings the user's brings the focus of the page to the `input` with the `autofocus` attribute on. This can be more annoying than helpful, so be very sure that it will help your users more than hinder them!
 
-TODO: add example.
+Here's an example showing the new attributes: [form-helper-attributes.html](form-helper-attributes.html).
+
+```html
+<form action="4-new-html-form-features.html#helper-attributes" method="post">
+
+  <label>You <strong>must</strong> fill in this one.<br />
+    <input type="text" name="must" required>
+  </label>
+
+  <label>What's your favourite fruit?<br />
+    <input type="text" name="fruit" placeholder="Apple, banana, pear?">
+  </label>
+
+  <label>What's your favourite number between 0 and 9?<br />
+    <input type="number" name="favourite-number">
+  </label>
+
+  <label>Potentially evil! See how the cursor is in this input already? Start typing to see!<br />
+    <input type="text" name="potentially-evil" autofocus>
+  </label>
+
+  <button type="submit">Send the data</button>
+</form>
+```
