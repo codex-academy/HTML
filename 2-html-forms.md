@@ -20,7 +20,7 @@ A `form` element needs an `action` attribute (what URL should the data be sent t
 Form controls like `input`s are used to enter data, and `button`s are used to submit the form. Here's [an example of a short form](form-1.html).
 
 ```html
-<form action="/" method="post">
+<form action="2-html-forms.html#form-controls" method="post">
   <input type="text" name="first-name">
   <button type="submit">Send the data</button>
 </form>
@@ -36,7 +36,7 @@ For improved accessibility (identifying what the control is for) and UX (click a
 Here's [a slightly larger example](form-2.html) showing the two ways to use labels, and introducing a new control: `textarea`, for larger pieces of text.
 
 ```html
-<form action="/" method="post">
+<form action="2-html-forms.html#form-controls" method="post">
   <label>First Name<br >
     <input type="text" name="first-name" id="first-name">
   </label>
@@ -65,59 +65,48 @@ To improve the logical grouping of your form, and improve UX and accessiblity, y
 Here's [an example](form-3.html) showing these new controls.
 
 ```html
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello, form!</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="//static.projectcodex.co/css/main.css">
-    </head>
-    <body>
-      <form action="/" method="post">
+<form action="2-html-forms.html#pick-one" method="post">
 
-        <fieldset>
-          <legend>What is your favourite animal?</legend>
+  <fieldset>
+    <legend>What is your favourite animal?</legend>
 
-          <label>Cats
-            <input type="checkbox" name="favourite-animal-cats">
-          </label>
+    <label>Cats
+      <input type="checkbox" name="favourite-animal-cats">
+    </label>
 
-          <label>Dogs
-            <input type="checkbox" name="favourite-animal-dogs">
-          </label>
+    <label>Dogs
+      <input type="checkbox" name="favourite-animal-dogs">
+    </label>
 
-          <label>Fish
-            <input type="checkbox" name="favourite-animal-fish">
-          </label>
-        </fieldset>
+    <label>Fish
+      <input type="checkbox" name="favourite-animal-fish">
+    </label>
+  </fieldset>
 
-        <br />
+  <br />
 
-        <fieldset>
-          <legend>Is this a question?</legend>
-          <label>Yes
-            <input type="radio" name="question" value="Yes">
-          </label>
-          <label>No
-            <input type="radio" name="question" value="No">
-          </label>
-        </fieldset>
-        <br />
+  <fieldset>
+    <legend>Is this a question?</legend>
+    <label>Yes
+      <input type="radio" name="question" value="Yes">
+    </label>
+    <label>No
+      <input type="radio" name="question" value="No">
+    </label>
+  </fieldset>
+  <br />
 
-        <label>Is this also a question?<br />
-          <select name="also-question">
-            <option>Yes</option>
-            <option>No</option>
-          </select>
-        </label>
-        <br />
-        <br />
+  <label>Is this also a question?<br />
+    <select name="also-question">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+  </label>
+  <br />
+  <br />
 
-        <button type="submit">Send the data</button>
-      </form>
-    </body>
-</html>
+  <button type="submit">Send the data</button>
+</form>
 ```
 
 Note the use of `name` and `value` across the different `input`s. The `name` identifies what piece of data that will be sent to the server. The `value` is the content of the data that will be sent to the server.
