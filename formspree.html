@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello, Formspree!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="//static.projectcodex.co/css/main.css">
+    </head>
+    <body>
+        <form action="https://formspree.io/you@projectcodex.co"
+        method="POST">
+
+            <input type="hidden" name="_subject" value="New submission!" />
+            <input type="hidden" name="_next" value="" />
+
+            <label>What is The Best Of Things?<br />
+                <input type="text" name="best-of-things">
+            </label>
+
+            <label>Your email<br />
+                <input type="email" name="_replyto"/>
+            </label>
+
+            <button type="submit">Spree!</button>
+        </form>
+    </body>
+</html>

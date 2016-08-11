@@ -18,3 +18,5 @@ HTML is static: something has to catch the `form`.
 * checkbox (pick many)
 * file
 * `fieldset`, `legend` (semantics, UX, accessibility)
+
+There is a way to gather data using someone else's server (and their API), which we'll [come back to later](formspree.html).
