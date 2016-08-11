@@ -15,7 +15,26 @@ A new set of `input` types were added to HTML to offer improved semantics, acces
 
 `number` and `tel` are for numbers and telephone numbers. `number` can have `min`, `max`, and `step` attributes. These also offer validation, helping users enter correct information. These are particularly noticable on mobile devices, where the displayed keyboard changes: `number` or `tel` can trigger the numerical keyboard rather than the standard alphanumeric one.
 
-TODO: add example.
+Here's an example with the new input types: [form-easier.html](form-easier.html)
+
+```html
+<form action="/" method="post">
+    <fieldset>
+        <legend>Your info</legend>
+
+        <label>Your email<br />
+        <input type="email" name="your-email">
+        </label>
+        <label>Your URL<br />
+        <input type="url" name="your-url" value="https://">
+        </label>
+
+        <button type="submit">Send the data</button>
+    </fieldset>
+</form>
+```
+
+What happens if you don't enter a correctly formatted email address or URL? Why did we add `value="https://"` and what happens if we remove it?
 
 ### Going native
 
