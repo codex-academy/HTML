@@ -5,7 +5,7 @@ title: HTML forms
 
 # HTML forms
 
-HTML forms are a way to gather data and send it to a server to be processed. Popular servers are Nginx and Apache. The server will have an application written in Node.JS, Ruby, Python, PHP, or some other language that does the processing.
+HTML forms are a way to gather data and send it to a server to be processed. Popular servers are Nginx and Apache. The server will have an application written in Node.JS, Ruby, Python, PHP, or some other language that does the processing. There is a way to gather data using someone else's server (and their API), which we'll [come back to later](formspree.html).
 
 A `form` element needs an `action` attribute (what URL should the data be sent to?) and a `method` (which HTTP protocol should it use: GET or POST?). If the `action` is left blank, the form submits to the current URL. A GET is a request for a resource like a web page or a CSS file. A POST is a request to look at the data and respond accordingly.
 
