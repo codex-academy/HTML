@@ -13,7 +13,7 @@ A new set of `input` types were added to HTML to offer improved semantics, acces
 
 `email` and `url` `input` types are for email addresses and web addresses, respectively. They offer validation, helping users enter correct information.
 
-`number` and `tel` are for numbers and telephone numbers. `number` can have `min`, `max`, and `step` attributes. These also offer validation, helping users enter correct information. These are particularly noticable on mobile devices, where the displayed keyboard changes: `number` or `tel` can trigger the numerical keyboard rather than the standard alphanumeric one.
+`number` is used for numbers and can have `min`, `max`, and `step` attributes. These also offer validation, helping users enter correct information. These are particularly noticable on mobile devices, where the displayed keyboard changes: `number` can trigger the numerical keyboard rather than the standard alphanumeric one.
 
 Here's an example with the new input types: [form-easier.html](form-easier.html)
 
@@ -35,10 +35,6 @@ Here's an example with the new input types: [form-easier.html](form-easier.html)
 
       <label>Pick an even number between 0 and 10<br />
           <input type="number" name="your-number" min="0" max="10" step="2">
-      </label>
-
-      <label>Your phone number<br />
-        <input type="tel" name="your-phone-number">
       </label>
   </fieldset>
 
