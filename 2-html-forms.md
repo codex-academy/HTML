@@ -9,8 +9,6 @@ HTML forms are a way to gather data and send it to a server to be processed. Pop
 
 A `form` element needs an `action` attribute (what URL should the data be sent to?) and a `method` (which HTTP protocol should it use: GET or POST?). If the `action` is left blank, the form submits to the current URL. A GET is a request for a resource like a web page or a CSS file. A POST is a request to look at the data and respond accordingly.
 
-
-
 ```html
 <form action="" method="post">
   <!-- Form controls go here -->
