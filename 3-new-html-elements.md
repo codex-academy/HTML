@@ -37,6 +37,10 @@ The `<footer>` element is used for the footer of the document or section of the 
 
 The `<aside>` element has two uses. When inside an article, it's used for content related to the article. When used outside of an article, it's used for content that's separate from the article, but related to the site.
 
+### Example
+
+`new-html-elements.html` is a large example showing how the elements fit together on a page. [View the source](view-source:http://html.projectcodex.co/new-html-elements.html) of the page.
+
 ## Images
 
 Every day a wider range of devices with varying screen sizes, and varying support for web technologies, is accessing the web. Two major changes / trends over the past few years have been: the rise of [Responsive web design](http://fefg.projectcodex.co/responsive-web-design.html); the increased use of images.
