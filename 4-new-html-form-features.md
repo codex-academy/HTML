@@ -52,7 +52,7 @@ Here's an example with the new input types: [form-easier.html](form-easier.html)
 
 ### Going native
 
-Some of the new HTML form elements "pave the cowpaths" and give the browser native ways of providing some of features that used to only be possible with lots of JS.
+Some of the new HTML form elements "pave the cowpaths" and give the browser native ways of providing some of the features that used to only be possible with lots of JS.
 
 JS date pickers can be replaced by `<input type="date" />`. JS sliders can be replaced by `<input type="range" />`. Both of these accept `min` and `max` attributes, and range accepts `step`. Elaborate JS colour pickers can be replaced by `<input type="color" />`.
 
@@ -93,7 +93,7 @@ The `placeholder` attribute adds "ghost text" as an extra hint to the user. This
 
 The `pattern` attribute allows for validation on the input based on the supplied a Regular Expression. RegEx is very powerful, so this can be very useful. It can also be very complicated, though!
 
-Another useful, but potentially evil attribute is `autofocus`. This brings the user's brings the focus of the page to the `input` with the `autofocus` attribute on. This can be more annoying than helpful, so be very sure that it will help your users more than hinder them!
+Another useful, but potentially evil attribute is `autofocus`. This brings the user's focus of the page to the `input` with the `autofocus` attribute on. This can be more annoying than helpful, so be very sure that it will help your users more than hinder them!
 
 Here's an example showing the new attributes: [form-helper-attributes.html](form-helper-attributes.html).
 
