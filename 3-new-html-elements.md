@@ -82,7 +82,7 @@ The `<picture>` element can also be used to supply a list of different image for
 
 ### Further reading
 
-* [Responsive Images Done Right: A Guide To <picture> And srcset](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/) by Eric Portis, on Smashing Magazine.
+* [Responsive Images Done Right: A Guide To picture And srcset](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/) by Eric Portis, on Smashing Magazine.
 * [Responsive Images - The srcset and sizes Attributes](https://bitsofco.de/the-srcset-and-sizes-attributes/).
 * [Responsive Images 101, Part 4: Srcset Width Descriptors](https://cloudfour.com/thinks/responsive-images-101-part-4-srcset-width-descriptors/) by Jason Grigsby of Cloud Four.
 * [Keeping srcset and sizes under control](https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control) by Matt Wilcox.
