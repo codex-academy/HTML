@@ -5,6 +5,18 @@ title: HTML
 
 # HTML
 
+HTML (Hypertext Markup Language) is the language of web pages. It lets us provide structured content (more than just plain text) to users.
+
+**Hypertext** is text with links (to other things) in it. A **markup language** is text with extra bits in it. The markup lets it be turned into structured text (with paragraphs and headings), images, and more (depending on the markup language).
+
+**HTML** uses tags, mostly in pairs. Here's an example of a paragraph (a bit of text wrapped in an opening and a closing `p` tag:
+
+```html
+<p>Ohai! This is a paragraph in HTML</p>
+```
+
+## All about that base
+
 Here's a very light template that you can use as a base for a new HTML page: [blank.html](blank.html). It looks like this:
 
 ```html
