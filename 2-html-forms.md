@@ -177,3 +177,11 @@ Here's [an example that combines the previous three](form-3.html) and groups the
   <button type="submit">Send the data</button>
 </form>
 ```
+
+## Make some changes
+
+Make more updates to your HTML page:
+
+* add several examples of text controls;
+* add several examples of pick controls;
+* add at least one `fieldset` element and at least one `legend` element.

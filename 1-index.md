@@ -57,3 +57,10 @@ It's a trimmed version of the [HTML5 Boilerplate](https://html5boilerplate.com/)
 ## Semantics
 
 When writing HTML, think about what elements to use. `div` and `span` are two generic containers. You should only use them if no other semantic element more appropriate. Is the content a list? Use a `ul` or `ol`. If you need to style something, can you add a class to an existing element rather than adding a new `div` or `span` with the class?
+
+## Make some changes
+
+Start a new repository and put a copy of the blank.html in it.
+
+* Update the page's `title` attribute.
+* Add some new content.

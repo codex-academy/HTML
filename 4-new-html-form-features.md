@@ -115,3 +115,11 @@ Here's an example showing the new attributes: [form-helper-attributes.html](form
   <button type="submit">Send the data</button>
 </form>
 ```
+
+## Make some changes
+
+Make more updates to your HTML page:
+
+* add an example of a new input type;
+* add an example of a date picker, range, or colour;
+* add an example of at least one new helper attribute.

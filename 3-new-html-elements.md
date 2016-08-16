@@ -91,3 +91,10 @@ The `<picture>` element can also be used to supply a list of different image for
 * [Responsive Images 101, Part 4: Srcset Width Descriptors](https://cloudfour.com/thinks/responsive-images-101-part-4-srcset-width-descriptors/) by Jason Grigsby of Cloud Four.
 * [Keeping srcset and sizes under control](https://mattwilcox.net/web-development/keeping-srcset-and-sizes-under-control) by Matt Wilcox.
 * [Picturefill](https://scottjehl.github.io/picturefill/) is a JavaScript polyfill that enables `<picture>` support in browsers that don't support it natively. It also has some excellent advice on how to choose [which markup patter to use](https://scottjehl.github.io/picturefill/#examples): `srcset` and `sizes` or `<picture>`.
+
+## Make some changes
+
+Make more updates to your HTML page:
+
+* add several of the new HTML elements;
+* add either an `img` using `srcset` and `sizes` or a `picture` element. Or both!

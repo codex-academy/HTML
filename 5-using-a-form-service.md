@@ -29,3 +29,10 @@ method="POST">
     <button type="submit">Spree!</button>
 </form>
 ```
+
+## Make some changes
+
+Make more updates to your HTML page:
+
+* uses formspree.io in your form's action, linked to the your email address;
+* confirm your email address with formspree.io by submitting the form.
