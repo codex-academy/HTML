@@ -1,31 +1,44 @@
 # Facilitator notes
 
-## Basic HTML
+## HTML
 
 The main learning outcomes are:
 
-* best contents and positioning of elements in the `head` of an HTML document;
-* correct use of `div` and `span`.
+* what HTML is;
+* the structure of an HTML page;
+* important items for the `head` section;
+* the importance of semantic HTML.
 
-## Basic HTML forms
+## HTML forms
 
 The main learning outcomes are:
 
-* what forms are and do;
-* what inputs forms can have;
-* why labels are important for User Experience and Accessibility.
+* what HTML forms are;
+* several types of form controls;
+* how to organise forms.
 
 ## New HTML elements
 
 The main learning outcomes are:
 
-* what the new HTML elements are and when to use them;
-* responsive images with `srcset` and `picture`.
+* some of the new HTML elements and what their uses are;
+* responsive images with `srcset`, `sizes` and the `picture` element.
 
 ## New HTML form features
 
 The main learning outcomes are:
 
-* what the new HTML form elements are;
-* why they're important for User Experience and Accessibility;
-* why they're better than custom JS-implemented versions of controls.
+* some new HTML form controls and attributes;
+* the benefits of using them.
+
+## Using a form service
+
+The main learning outcomes are:
+
+* using an external service to capture form submissions.
+
+## Front-end Development
+
+The main learning outcomes are:
+
+* the roles of HTML, CSS, and JavaScript in a web page.
