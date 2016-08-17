@@ -1,8 +1,6 @@
----
-unitstandard: 115365, 115368, 115369
----
-
 # Assessments
+
+unitstandard: 115365, 115368, 115369
 
 ## Formative assessment 1
 
